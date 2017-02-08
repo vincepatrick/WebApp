@@ -14,6 +14,7 @@ charset=ISO-8859-1">
 </head>
 <body>
 <h1>$title</h1>
+<h1></h1>
 END;
 }
 function ui_print_footer($date){
