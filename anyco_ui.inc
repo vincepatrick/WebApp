@@ -1,7 +1,7 @@
 <?php
 function ui_print_header($title){
 $title=htmlentities($title);
-echo<<<END
+echo <<<END
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD
 HTML 4.01//EN"
 "http://www.w3.org/html4/strict.dtd">
@@ -19,11 +19,11 @@ END;
 }
 function ui_print_footer($date){
 $date=htmlentities($date);
-  echo<<<END
+  echo <<<END
   <div class="footer">
   <div class="date">$date</div>
   <div class="company">Any Co.</div>
   </div>
-  END;
+END;
 }
 ?>
