@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Activity 8</title>
+	<script language="javascript" type="text/javascript">
+	<!--
+		function getCon()
+		{
+			var retVar=confirm("Do you want to contunue?");
+			if(retVar == true)
+			{
+				document.write("You may proceed.");
+				return true;
+			}
+			else
+			{
+				document.write("See you next time. :)");
+				return false;
+			}
+		}
+	//-->
+	</script>
+</head>
+<body>
+
+<p>Click the following button to see the result</p>
+<form><input type="Button" value="Click me" onclick="getCon()"/></form>
+
+</body>
+</html>
