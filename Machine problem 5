@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Machine problem 5</title>
+	<script language="javascript" type="text/javascript">
+
+	<!--
+		function eva() {
+			var retVal=prompt("Enter your Grade: ","Your Grade here");
+			if(retVal >= 50)
+			{
+				document.write("<h1>Congrats! you've PASSED!</h1>");
+			}
+			else
+			{
+				document.write("<h1>Sorry! Try again next time</h1>");
+			}
+		}
+	//-->
+
+	</script>
+	
+</head>
+<body>
+
+Click the following button to enter your Grade.
+
+<form><input type="button" value="Click me" onclick="eva()"/></form>
+
+</body>
+</html>
