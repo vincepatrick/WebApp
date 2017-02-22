@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Activity 9</title>
+	<script language="javascript" type="text/javascript">
+
+	<!--
+		function getVal() {
+			var retVal=prompt("Enter you name: ","Your name here");
+			document.write("HI " + retVal);
+		}
+	//-->
+
+	</script>
+	
+</head>
+<body>
+
+Click the following button to see the result.
+
+<form><input type="button" value="Click me" onclick="getVal()"/></form>
+
+</body>
+</html>
