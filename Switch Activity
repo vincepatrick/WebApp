@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>switch_index</title>
+</head>
+<body>
+
+<script type="text/javascript">
+	
+	<!--
+
+		
+		var torf = true;
+
+		while(torf)
+		{
+
+			var grade=prompt("Enter your Grade: ","Your grade here");
+
+			switch(true)
+			{
+
+				case(grade>=96 && grade<=100) : document.write('<h1> You got "A+" </h1><br/>');
+							torf = isNaN(grade);
+						    break;
+						   
+				case(grade>=91 && grade<96) : document.write('You got "A" <br/>');
+							torf = isNaN(grade);
+						    break;
+						   
+				case(grade>=86 && grade<91) : document.write('You got "A-" <br/>');
+							torf = isNaN(grade);
+						    break;
+						   		   
+				case(grade>=81 && grade<86) : document.write('You got "B+" <br/>');
+							torf = isNaN(grade);
+						    break;
+				
+				case(grade>=75 && grade<81) : document.write('You got "B" <br/>');
+							torf = isNaN(grade);
+						    break;
+						   		   
+				case(grade>=69 && grade<75) : document.write('You got "B-" <br/>');
+							torf = isNaN(grade);
+						    break;
+						   		   
+				case(grade>=63 && grade<69) : document.write('You got "C+" <br/>');
+							torf = isNaN(grade);
+						    break;
+						   		   
+				case(grade>=57 && grade<63) : document.write('You got "C" <br/>');
+							torf = isNaN(grade);
+						    break;
+						   		   
+				case(grade>=50 && grade<57) : document.write('You got "C-" <br/>');
+							torf = isNaN(grade);
+						    break;
+						   		   
+				case(grade<50) : document.write('You got "F" <br/>');
+							torf = isNaN(grade);
+						    break;
+
+				default : alert("Re-enter a valid grade");
+							torf = true;
+							break;
+						
+			}
+
+
+		}	
+	//-->
+
+</script>
+	
+
+</body>
+
+</html>
