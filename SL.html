@@ -1,3 +1,4 @@
+<document html>
 <html>
 <head>
 	<title>Color Pad</title>
@@ -6,20 +7,18 @@
 
 		.blackbg
 		{
-
 			background-color: black;
-
 		}
-
 		.redbg
 		{
-
 			background-color: red;
-
 		}
 
-
 	</style>
+
+</head>
+
+<body id="image">
 
 	<script type="text/javascript">
 
@@ -29,17 +28,15 @@
 			var bgPro = prompt("Enter COLOR for your background");
 			switch(bgPro.toLowerCase())
 			{
-				case "black" : 
-					var bd = blackbg;
-					document.getElementById("image");
-					setAttribute("class",bd);
+				case"black": 
+					var bd = "blackbg";
+					document.getElementById("image").setAttribute("class",bd);
 					break;
-				case "red"	:
-					var bd = redbg;
-					document.getElementById("image");
-					setAttribute("class",bd);
+				case"red":
+					var bd = "redbg";
+					document.getElementById("image").setAttribute("class",bd);
 					break;
-				default :
+				default:
 					alert("No background color entered!");
 					break;
 			}
@@ -47,10 +44,6 @@
 		}
 
 	</script>
-
-</head>
-
-<body id="image">
 
 	<input type="button" value="Click me" onclick="CBG()"/>
 
