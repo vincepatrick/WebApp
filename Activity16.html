@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Activity 16</title>
+
+	<style type="text/css">
+
+		body {
+		  font-family: sans-serif;
+		}
+
+		#controlPanel {
+		  float: left;
+		  padding-top: 30px;
+		}
+
+		.button {
+		  background-color: gray;
+		  color: white;
+		  border-radius: 10px;
+		  padding: 20px;
+		  text-align: center;
+		  margin: 50px 30px;
+		  cursor: pointer;
+		}
+
+		#TLyts {
+		  height: 550px;
+		  width: 200px;
+		  float: left;
+		  background-color: #333;
+		  border-radius: 40px;
+		  margin: 30px 0;
+		  padding: 20px;
+		}
+
+		.bulb {
+		  height: 150px;
+		  width: 150px;
+		  background-color: #111;
+		  border-radius: 50%;
+		  margin: 25px auto;
+		}
+	</style>
+
+	<script type="text/javascript">
+		
+		var myInt;
+
+		function startLyt()
+		{
+
+			myInt = setTimeout(redLyt, 1000);
+			myInt = setTimeout(grnLyt, 2000);
+			myInt = setTimeout(orgLyt, 3000);
+			//clearTimeout(myInt);
+			//myInt = setInterval(clrLyt, 4000);
+			
+		}	
+
+		
+		
+		function redLyt()
+		{
+			  document.getElementById('stop').style.backgroundColor = "red";
+			  document.getElementById('slow').style.backgroundColor = "black";
+			  document.getElementById('go').style.backgroundColor = "black";
+		}
+		function grnLyt()
+		{
+			  document.getElementById('stop').style.backgroundColor = "black";
+			  document.getElementById('slow').style.backgroundColor = "black";
+			  document.getElementById('go').style.backgroundColor = "green";
+		}
+		function orgLyt()
+		{
+			  document.getElementById('stop').style.backgroundColor = "black";
+			  document.getElementById('slow').style.backgroundColor = "orange";
+			  document.getElementById('go').style.backgroundColor = "black";
+		 }
+		function clrLyt()
+		{
+			  document.getElementById('stop').style.backgroundColor = "black";
+			  document.getElementById('slow').style.backgroundColor = "black";
+			  document.getElementById('go').style.backgroundColor = "black";			
+		}
+
+</script>
+</head>
+<body>
+	<div id="controlPanel">
+
+	  <button class="button" onclick="startLyt()"> <h1>Start</h1> </button>
+	
+	</div>
+
+	<div id="TLyts">
+		
+		<div id="stop" class="bulb"></div>
+		<div id="slow" class="bulb"></div>
+		<div id="go" class="bulb"></div>
+
+	</div>
+</body>
+</html>
