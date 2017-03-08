@@ -1,0 +1,56 @@
+DOM Objects
+
+	-(DOM): Document Object Model
+
+six Global DOM Objects
+
+1. Document	-	Current HTML page and its content
+2. History	-	List of page that user last visited
+3. Location 	-	URL of the current page
+4. Navigator 	-	Info about the web browser used
+5. Screen	-	Info about the screen area occupied by the browser
+6. window	-	The browser window
+
+window object
+
+	-The top-level object in DOM hierarchy
+	-Properties:	Document, history, location name
+	-Methods:	Alert, confirm, prompt
+			setInterval, setTimeout, clearInterval, open, close, blur, focus, moveBy, moveTo, print, resizeBy,
+			resizeTo, scrollBy, scrollTo
+
+Document Object
+
+	-The current web page and element inside it
+	-Properties:	anchors, body, cookie, domain, forms, images, links, referrer, title, URL
+	-Method:	getElementById, getElementByName, getElementByTagName, close, open, write, write/n
+
+Location Object
+
+	-The URL of the current web page
+	-Properties:	host, hostname, href, pathname, port, protocol, search
+	-Method: 	assign, reload, replace
+
+Navigator Object
+
+	-Information about the web browser application
+	-Properties:	appName, appVersion, browserLanguage, cookieEnable, platform, userAgent
+
+Screen Object
+
+	-Information about the clients's display screen
+	-Properties:	availHeight, availWidth, colorDepth, height, pixelDepth, width
+
+History Object
+
+	-The list of the browser visited in the window
+	-Properties:	length
+	-Method:	back, forward, go
+
+Goal as a web developer
+
+	-Write an unobstrusive JS code
+	-Make a distinction for the website
+	a. Content (HTML)
+	b. Presentation (CSS)
+	c. behavior (JavaScript)
